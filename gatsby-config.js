@@ -1,3 +1,4 @@
+const adapter = require("gatsby-adapter-netlify")
 /**
  * 👋 Hey there!
  * This file is the starting point for your new WordPress/Gatsby site! 🚀
@@ -13,6 +14,9 @@ module.exports = {
    * Gatsby has a rich ecosystem of plugins.
    * If you need any more you can search here: https://www.gatsbyjs.com/plugins/
    */
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+  }),
   plugins: [
     {
       /**
