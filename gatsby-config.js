@@ -1,4 +1,4 @@
-const adapter = require("gatsby-adapter-netlify")
+import adapter from 'gatsby-adapter-netlify'
 /**
  * 👋 Hey there!
  * This file is the starting point for your new WordPress/Gatsby site! 🚀

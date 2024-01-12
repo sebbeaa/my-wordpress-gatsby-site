@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "gatsby": "~5.3.2",
+    "gatsby-adapter-netlify": "^1.1.1",
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-manifest": "^5.3.1",
     "gatsby-plugin-netlify": "^5.1.1",
